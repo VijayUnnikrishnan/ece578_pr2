@@ -1,0 +1,114 @@
+bzip2 -dk 20221101.as-rel2.txt.bz2
+
+grep Content  20150801.as2types.txt | wc -l
+  325  grep Transit  20150801.as2types.txt | wc -l
+  326  grep Enter  20150801.as2types.txt | wc -l
+  327  grep Enterprise  20150801.as2types.txt | wc -l
+  328  grep Enterpise  20150801.as2types.txt | wc -l
+  329  grep Content 20210401.as2types.txt | wc -l
+  330  grep Transit 20210401.as2types.txt | wc -l
+  331  grep Enterpise 20210401.as2types.txt | wc -l
+  332  grep Enter 20210401.as2types.txt | wc -l
+
+gvim 20221001.as-org2info.txt 
+  220  grep 24482  20221001.as-org2info.txt
+  221  grep 51185  20221001.as-org2info.txt
+  222  grep 35280  20221001.as-org2info.txt
+  223  grep 1828  20221001.as-org2info.txt
+  224  grep 61568  20221001.as-org2info.txt
+  225  grep 58511  20221001.as-org2info.txt
+  226  grep 38497  20221001.as-org2info.txt
+  227  grep 39120  20221001.as-org2info.txt
+  228  grep 25091  20221001.as-org2info.txt
+  229  grep 41327 20221001.as-org2info.txt
+  230  grep 174 20221001.as-org2info.txt
+  231  grep ^174 20221001.as-org2info.txt
+  232  grep ^3356 20221001.as-org2info.txt
+  233  grep ^7018  20221001.as-org2info.txt
+  234  grep ^1299  20221001.as-org2info.txt
+  235  grep ^6939  20221001.as-org2info.txt
+  236  grep ^6461  20221001.as-org2info.txt
+  237  grep ^3257  20221001.as-org2info.txt
+  238  grep ^2914  20221001.as-org2info.txt
+  239  grep ^701  20221001.as-org2info.txt
+  240  grep ^209  20221001.as-org2info.txt
+  241  grep ^12389  20221001.as-org2info.txt
+  242  grep ^8220  20221001.as-org2info.txt
+  243  grep ^9498  20221001.as-org2info.txt
+  244  grep ^9002  20221001.as-org2info.txt
+  245  grep ^3549  20221001.as-org2info.txt
+  246  ls -ltr
+  247  cd ..
+  248  ls
+  249  cd topology_inference/
+  250  ls
+  251  ls -ltr
+  252  grep 174 routeviews-rv2-20221104-1400.pfx2as
+  253  grep 174$ routeviews-rv2-20221104-1400.pfx2as
+  254  grep \s174$ routeviews-rv2-20221104-1400.pfx2as
+  255  grep '\s*174$' routeviews-rv2-20221104-1400.pfx2as
+  256  grep ' 174$' routeviews-rv2-20221104-1400.pfx2as
+  257  grep ' 174$' routeviews-rv2-20221104-1400.pfx2as > 174_u
+  258  gvim 174_u 
+  259  grep ' 3356$' routeviews-rv2-20221104-1400.pfx2as 
+  260  grep ' 3356$' routeviews-rv2-20221104-1400.pfx2as  | wc -l
+  261  grep ' 2458$' routeviews-rv2-20221104-1400.pfx2as  | wc -l
+  262  grep ' 2458$' routeviews-rv2-20221104-1400.pfx2as  
+  263  grep '2458$' routeviews-rv2-20221104-1400.pfx2as  
+  264  grep ' 2458$' routeviews-rv2-20221104-1400.pfx2as  
+  265  grep '7018$' routeviews-rv2-20221104-1400.pfx2as  
+  266  grep ' 7018$' routeviews-rv2-20221104-1400.pfx2as  
+  267  grep ' 7018$' routeviews-rv2-20221104-1400.pfx2as  |wc -l
+  268  grep ' 1299$' routeviews-rv2-20221104-1400.pfx2as  |wc -l
+  269  grep ' 1299$' routeviews-rv2-20221104-1400.pfx2as
+  270  grep ' 1299$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  271  grep ' 6939$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  272  grep ' 6461$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  273  grep ' 3257$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  274  grep ' 3257$' routeviews-rv2-20221104-1400.pfx2as 
+  275  grep ' 3257$' routeviews-rv2-20221104-1400.pfx2as | sort
+  276  grep ' 3257$' routeviews-rv2-20221104-1400.pfx2as | sort | wc -l
+  277  grep ' 2914$' routeviews-rv2-20221104-1400.pfx2as | sort | wc -l
+  278  grep ' 701$' routeviews-rv2-20221104-1400.pfx2as | sort | wc -l
+  279  grep ' 209$' routeviews-rv2-20221104-1400.pfx2as | sort | wc -l
+  280  grep ' 209$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  281  grep ' 209$' routeviews-rv2-20221104-1400.pfx2as 
+  282  grep ' 209$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  283  grep ' 12389$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  284  grep ' 8220$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  285  grep ' 9498$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  286  grep ' 9002$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  287  grep ' 3549$' routeviews-rv2-20221104-1400.pfx2as | wc -l
+  288  ls -ltr
+  289  gvim my_perl.pl
+  290  ./my_perl.pl
+  291  ls -ltr
+  292  which perl 
+  293  /usr/bin/perl my_perl.pl  routeviews-rv2-20221104-1400.pfx2as
+  294  /usr/bin/perl my_perl.pl  
+  295  /usr/bin/perl my_perl.pl  --clique 6633  routeviews-rv2-20221104-1400.pfx2as
+  296  ls
+  297  history 
+  298  ls -ltr
+  299  cd ..
+  300  ls
+  301  gvim  20210401.as2types.txt 
+  302  grep Content 20210401.as2types.txt  | wc -l 
+  303  grep Transit 20210401.as2types.txt  | wc -l 
+  304  grep Enterprise 20210401.as2types.txt  | wc -l 
+  305  ls -ltr
+  306  cd as_orgz/
+  307  ls
+  308  gvim 20221001.as-org2info.txt 
+  309  cd ../topology_inference/
+  310  ls -ltr
+  311  gvim routeviews-rv2-20221104-1400.pfx2as
+  312  gvim 174_u 
+  313  grep ' 24 ' 174_u
+  314  grep ' 24 ' 174_u | wc -l
+  315  grep ' 24 ' 174_u | wc -l 
+  316  grep ' 23 ' 174_u  | wc -l 
+  317  grep ' 22 ' 174_u  | wc -l 
+  318  grep ' 21 ' 174_u  | wc -l 
+  319  ls -ltr
+
